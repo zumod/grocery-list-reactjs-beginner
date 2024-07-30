@@ -52,6 +52,7 @@ const Item = ({
           fontSize: "20px",
         }}
         className={complete ? "complete" : ""}
+        readOnly
       />
       <img
         style={{ cursor: "pointer" }}
